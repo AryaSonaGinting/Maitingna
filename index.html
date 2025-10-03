@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Website gwehhh</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <!-- Referensi ke file CSS eksternal -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <header>
+    MAITINGNA
+    <div id="time"></div>
+  </header>
+
+  <nav>
+    <a href="#" class="active" onclick="showSection(event, 'tentang')">Tentang Itingndu</a>
+    <a href="#" onclick="showSection(event, 'jadwal')">Jadwal Kuliah</a>
+    <a href="#" onclick="showSection(event, 'sosmed')">Sosial Media</a>
+  </nav>
+
+  <div class="container" id="mainContent" style="display:block;">
+    <section id="tentang" class="active">
+      <img src="kkt.jpg" alt="Foto Mahasiswa" class="profile" />
+      <p><strong>Nama :</strong> Arya Sona Ginting Munthe</p>
+      <p><strong>NIM:</strong> 241401100</p>
+      <p><strong>Kom:</strong> A</p>
+      <p><strong>Hobi:</strong> Bermain game & olahraga</p>
+      <p><strong>Motto Hidup:</strong> "Ora et Labora"</p>
+      <p><strong>Perkenalan Singkat:</strong> Saya adalah mahasiswa yang suka belajar hal baru terutama di bidang teknologi dan hal-hal baru yang menambah wawasan saya.</p>
+    </section>
+
+    <section id="jadwal">
+      <h2>Jadwal Kuliah</h2>
+      <table>
+        <tr>
+          <th>Hari</th>
+          <th>Mata Kuliah</th>
+          <th>Waktu</th>
+        </tr>
+        <tr><td>Senin</td><td>Lab Basis Data</td><td>08.00 - 09.40</td></tr>
+        <tr><td></td><td>Lab Pemrograman Web</td><td>10.30 - 12.10</td></tr>
+        <tr><td></td><td>Seni dan Kebugaran Masyarakat</td><td>13.00 - 14.40</td></tr>
+        <tr><td>Selasa</td><td>IELTS Preparation</td><td>10.30 - 12.10</td></tr>
+        <tr><td>Rabu</td><td>Pemrograman Website</td><td>08.00 - 10.30</td></tr>
+        <tr><td></td><td>Organisasi Arsitektur Komputer</td><td>10.30 - 13.00</td></tr>
+        <tr><td></td><td>Basis Data</td><td>14.40 - 17.10</td></tr>
+        <tr><td>Kamis</td><td>Etika Profesi</td><td>08.00 - 09.40</td></tr>
+        <tr><td></td><td>Lab Struktur Data</td><td>13.00 - 14.40</td></tr>
+        <tr><td>Jumat</td><td>Wira Usaha Digital</td><td>08.00 - 09.40</td></tr>
+        <tr><td></td><td>Struktur Data</td><td>13.50 - 16.20</td></tr>
+      </table>
+    </section>
+
+    <section id="sosmed">
+      <h2>Sosial Media</h2>
+      <div class="social">
+        <p>Instagram</p>
+        <a href="https://www.instagram.com/_arya00m/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-instagram"></i> @_arya00m
+        </a>
+      </div>
+      <div class="social">
+        <p>GitHub</p>
+        <a href="https://github.com/AryaSonaGinting/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github"></i> AryaSonaGinting
+        </a>
+      </div>
+      <div class="social">
+        <p>Whatsapp</p>
+        <a href="https://wa.me/082374366653" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-whatsapp"></i> Whatsapp Arya G Munthe
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <div class="sesuatu"></div>
+
+  <!-- Referensi ke file JS eksternal -->
+  <script src="script.js"></script>
+</body>
+</html>
